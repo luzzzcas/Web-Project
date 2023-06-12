@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: white;
+    color: white;
+    padding: 20px 50px;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .menuItem {
+    margin-right: 50px;
+    cursor: pointer;
+    color: black;
+    font-weight: 400;
+  }
+
+  h1 {
+    padding: 30px;
+  }
+
+.items {
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.thumbnail img {
+    display: flex;
+}
